@@ -1,6 +1,5 @@
 import java.sql.*;
 import java.io.*;
-import java.util.*;
 public class Project1{
  public static void main(String[] args)  {
  Console console = System.console();
@@ -22,8 +21,8 @@ public class Project1{
     }
     public static boolean validateLogin(String Users, String password) {
         String url = "jdbc:mysql://127.0.0.1:3306/loginn";
-	String dbUser = "root"; 
-        String dbPassword = "ch998815";  
+	String dbUser = "SQLuser"; 
+        String dbPassword = "SQLpassword";  
 
         boolean isValid = false;
 
